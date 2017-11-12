@@ -24,13 +24,17 @@ func elizaResponse(message string) (string) {
 		"Why don’t you tell me more about your father?"}
 
 	randNum := genRandInt(0, 2)
-
-	r, _ := regexp.Compile("father")
 	
-	if r.FindString(message) == "father" {
+	r, _ := regexp.Compile("\b[Ff](ather)")
+	if r.MatchString(message) {
 			response = "Why don’t you tell me more about your father?"
 	} else {
-		response = responseList[randNum]
+		r, _ = regexp.Compile("[Ii](m|[\t\n\f\r ][Aa][Mm]|[^\t\n\f\r ]m)")
+		if r.MatchString(message){
+			response = r.ReplaceAllString(message, "How do you know you are")
+		} else {
+			response = responseList[randNum]
+		}
 	}
 
 	return response
