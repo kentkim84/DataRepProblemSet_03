@@ -13,9 +13,9 @@ This problem set is to learn the fundamentals of creating a web application in G
 ## How to clone
 1. Open **Git Bash**.
 2. Change the current working directory to the location where you want the cloned directory to be made.
-3. Type 'git clone', and then paste the URL `https://github.com/kentkim84/GoLangWebAppProject.git` or `git@github.com:kentkim84/GoLangWebAppProject.git`
+3. Type 'git clone', and then paste the URL `https://github.com/kentkim84/DataRepProblemSet_03.git` or `git@github.com:kentkim84/DataRepProblemSet_03.git`
 ```
-git clone https://github.com/kentkim84/GoLangWebAppProject.git
+git clone https://github.com/kentkim84/DataRepProblemSet_03.git
 ```
 ## Coding Standards
 // Version 0.2 using C standards
@@ -60,7 +60,7 @@ b.	Use camel casing for other methods
 
 ### References
 This examples are from
-* [Data Representation and Querying - Ian McLoughlin](https://data-representation.github.io/problems/go-web-applications.html)
+* [Data Representation and Querying - Ian McLoughlin](https://data-representation.github.io/problems/go-regexp.html)
 
 This coding standard is followed by
 * [popeKim's c/c++ coding standards](https://docs.google.com/document/d/1cT8EPgMXe0eopeHvwuFmbHG4TJr5kUmcovkr5irQZmo/edit#heading=h.r2n9mhxbh2gg)
